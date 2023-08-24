@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish&display=swap');
+@import url(styles/header.css);
+@import url(styles/container.css);
+@import url(styles/rodape.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-destaque: #89C5CC;
+    --cor-preta: #000000;
+    --cor-verde: #69B99D;
+    --cor-fundo: #f6fffd;
+    --cinza: #696c6c;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-preta);
+    font-family: 'Mulish', sans-serif;
+    margin: 5%;
+    font-size: 1.3rem;
+    
+}
